@@ -63,7 +63,7 @@
     document.getElementById("meta").value = localStorage.getItem("vaquinha_meta") || 100;
     document.getElementById("atual").value = localStorage.getItem("vaquinha_atual") || 0;
     document.getElementById("serie").value = localStorage.getItem("vaquinha_serie") || "";
-    document.getElementById("filme").value = localStorage.getItem("vaquinha_filme") || "bob esponja";
+    document.getElementById("filme").value = localStorage.getItem("vaquinha_filme") || "";
 
     function atualizar() {
       const meta = document.getElementById('meta').value;
@@ -82,5 +82,6 @@
   <!-- SCRIPT DE LEITURA DO TMI -->
   <script src="tmi-vaquinha.js"></script>
 </body>
+
 
 </html>
